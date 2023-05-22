@@ -36,7 +36,7 @@
     top: .7%;
     left: 1%;
     height: 70px;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     font-size: 30px;
     font-weight: bold;
     line-height: 80px;
@@ -80,6 +80,15 @@
   
     display: none;
   }
+  .Align{
+    position: fixed;
+    text-align: center;
+    left:30%;
+    top: 3%;
+    font-size:xx-large;
+    color: aliceblue;
+    font-weight: bold;
+  }
   
   /* MOBILE */
   @media (max-width: 768px) {
@@ -95,7 +104,7 @@
       position: fixed;
       left: 1%;
       height: 55px;
-      border-radius: 50%;
+      /*border-radius: 50%;*/
       font-size: 25px;
       line-height: 60px;
     }
@@ -142,6 +151,15 @@
         margin-right: 40px;
         list-style: none;
       }
+    }
+    .Align{
+      position: fixed;
+      text-align: center;
+      left:20%;
+      top: 2%;
+      font-size:xx-large;
+      color: aliceblue;
+      font-weight: bold;
     }
       
 }
@@ -234,19 +252,36 @@ aside{
 p.Presentation {
   text-align: center;
 }
-.Align{
-  position: fixed;
-  text-align: center;
-  left:30%;
-  top: 2%;
-  font-size:xx-large;
-  color: aliceblue;
-  font-weight: bold;
-}
+
 .Profile{
   height: 150px;
   width: 150px;
   border-radius: 50%;
   border-style:groove;
   margin: 5px;
+}
+.Refresh{
+  color: aliceblue;
+  text-decoration: none;
+}
+/*Scroll Bar Design*/
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #162b4e beige;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: beige;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #162b4e;
+  border-radius: 20px;
+  border: 3px solid orange;
 }
