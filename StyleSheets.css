@@ -32,7 +32,10 @@
   }
   
   .logo img{
-    height: 75px;
+    position: fixed;
+    top: .7%;
+    left: 1%;
+    height: 70px;
     border-radius: 50%;
     font-size: 30px;
     font-weight: bold;
@@ -89,6 +92,8 @@
     }
   
     .logo img{
+      position: fixed;
+      left: 1%;
       height: 55px;
       border-radius: 50%;
       font-size: 25px;
@@ -219,4 +224,29 @@ aside{
         grid-gap:30px;
         padding: 35px 0px;
     }
+}
+.rectangle {
+  background-color: #162b4e;
+  color: aliceblue;
+  padding: 1cm;
+  
+}
+p.Presentation {
+  text-align: center;
+}
+.Align{
+  position: fixed;
+  text-align: center;
+  left:30%;
+  top: 2%;
+  font-size:xx-large;
+  color: aliceblue;
+  font-weight: bold;
+}
+.Profile{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border-style:groove;
+  margin: 5px;
 }
